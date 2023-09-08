@@ -70,3 +70,32 @@ footer {
 .col img:hover {
   transform: scale(1.1);
 }
+
+.settings {
+  width: 60%;
+}
+
+.settings .form-check {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.settings input {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background: #141414;
+  border-color: #808080;
+}
+.settings input:checked {
+  color: #808080;
+}
+.finalbtns {
+  padding-bottom: 50px;
+}
+.finalbtns button {
+  font-size: 25px;
+  font-weight: 700;
+  width: 90%;
+  padding: 10px;
+}

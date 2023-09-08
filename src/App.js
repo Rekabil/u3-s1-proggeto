@@ -5,12 +5,14 @@ import "./assets/style.css";
 import Main from "./component/Main";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import MyFooter from "./component/MyFooter";
+import Profile from "./component/Profile";
 
 function App() {
   return (
     <div className="App">
       <MyNav />
-      <Main />
+      {/* <Main /> */}
+      <Profile />
       <MyFooter />
     </div>
   );

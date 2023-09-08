@@ -36,14 +36,14 @@ class Gallery extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="my-3">
         {this.state.isLoading && (
           <div className="ml-2">
             <Spinner animation="grow" />
           </div>
         )}
         {this.state.errMsg && <Alert variant="warning">There is an error</Alert>}
-        <h2>{this.props.title}</h2>
+        <h2 className="text-start">{this.props.title}</h2>
         <Row className="flex-nowrap" style={{ overflow: "auto" }}>
           {this.state.data.map((movie) => {
             return <Movie src={movie.Poster} key={movie.imdbID} />;

@@ -9,10 +9,10 @@ import Profile from "./component/Profile";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-100">
       <MyNav />
-      {/* <Main /> */}
-      <Profile />
+      <Main />
+      {/* <Profile /> */}
       <MyFooter />
     </div>
   );
